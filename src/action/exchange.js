@@ -3,9 +3,9 @@ import {
   FETCH_CURRENCIES_SUCCESS,
   SET_CURRENCY_CONVERT_TO,
   SET_CURRENT_CURRENCY, UPDATE_AVALIABLES_EXCHANGE
-} from '../types/exchange';
-import privatbankService from '../services/privatbankService';
-import {fetchFailure, fetchRequest} from './index';
+} from '../types/exchange'
+import privatbankService from '../services/privatbankService'
+import {fetchFailure, fetchRequest} from './index'
 
 const setCurrentCurrency = (currency) => ({type: SET_CURRENT_CURRENCY, currency})
 const fetchCurrenciesSuccess = (currencies) => ({type: FETCH_CURRENCIES_SUCCESS, currencies})

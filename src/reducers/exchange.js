@@ -4,7 +4,7 @@ import {
   SET_CURRENCY_CONVERT_TO,
   SET_CURRENT_CURRENCY, UPDATE_AVALIABLES_EXCHANGE
 } from '../types/exchange';
-import {FETCH_FAILURE, FETCH_REQUEST} from '../types';
+import {FETCH_FAILURE, FETCH_REQUEST} from '../types'
 
 const initialState = {
   currentCurrency: null,

@@ -1,4 +1,4 @@
-import React from 'react';
+import React from 'react'
 
 const ErrorIndicator = () => {
   return (
@@ -8,4 +8,4 @@ const ErrorIndicator = () => {
   );
 };
 
-export default ErrorIndicator;
+export default ErrorIndicator

@@ -35,7 +35,7 @@ const SelectCurrencies = (
   }, [currency])
 
   const selectChange = (event) => {
-    changeCurrentCurrency(event.target.value);
+    changeCurrentCurrency(event.target.value)
   };
 
   const inputChange = (event) => {

@@ -1,13 +1,13 @@
 import React from 'react'
 import {useDispatch, useSelector} from 'react-redux'
-import Grid from '@material-ui/core/Grid';
-import Container from '@material-ui/core/Container';
+import Grid from '@material-ui/core/Grid'
+import Container from '@material-ui/core/Container'
 
-import * as actions from '../../action/exchange';
-import Spinner from '../Spinner';
-import ErrorIndicator from '../errorIndicator/errorIndicator';
-import SelectCurrencies from '../SelectCurrencies';
-import {bindActionCreators} from 'redux';
+import * as actions from '../../action/exchange'
+import Spinner from '../Spinner'
+import ErrorIndicator from '../errorIndicator/'
+import SelectCurrencies from '../SelectCurrencies'
+import {bindActionCreators} from 'redux'
 
 const App = () => {
   const exchange = useSelector(state => state.exchange)
