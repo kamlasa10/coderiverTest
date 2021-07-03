@@ -5,7 +5,6 @@ import {
   SET_CURRENT_CURRENCY, UPDATE_AVALIABLES_EXCHANGE
 } from '../types/exchange';
 import {FETCH_FAILURE, FETCH_REQUEST} from '../types';
-import {act} from '@testing-library/react';
 
 const initialState = {
   currentCurrency: null,
