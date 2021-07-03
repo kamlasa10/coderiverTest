@@ -39,7 +39,7 @@ const SelectCurrencies = (
   };
 
   const inputChange = (event) => {
-    const value = event.target.value
+    const value = event.target.value.replace(/\D/g,'')
     onInputChange(value)
   }
 
